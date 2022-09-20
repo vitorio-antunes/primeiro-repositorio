@@ -21,12 +21,16 @@ const texto = "O Javascript foi criado alguns anos após o python, o Javascript 
 //console.log(texto.toLowerCase())
 //console.log(texto.concat('A linguamgem C é a mãe de todas as linguagens.'))
 //console.log(texto[5], texto[17])
-console.log(texto.substring(2, 11))
+//console.log(texto.substring(2, 11))
 //console sensitive
-console.log(texto.replace('Javascript','Rust'))//substitui a primeira ocorrencia da pesquisa
-console.log(texto.replaceAll('Javascript','Kotlin'))//substitui todas as ocorreias 
-console.log(texto.replace(/Javascript/g,'PHP'))
-console.log(texto.replace(/Javascript/gi,'PHP'))
+//console.log(texto.replace('Javascript','Rust'))//substitui a primeira ocorrencia da pesquisa
+//console.log(texto.replaceAll('Javascript','Kotlin'))//substitui todas as ocorreias 
+//console.log(texto.replace(/Javascript/g,'PHP'))
+//console.log(texto.replace(/Javascript/gi,'PHP'))
+
+const html = '<!DOCTYPE hmtl>\n<html>'
+
+console.log(html.startsWith('<!DOCTYPE hmtl>'))
 
 /**
  * Concatenação
