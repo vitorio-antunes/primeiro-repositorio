@@ -31,6 +31,20 @@ const texto = "O Javascript foi criado alguns anos após o python, o Javascript 
 const html = '<!DOCTYPE hmtl>\n<html>'
 
 console.log(html.startsWith('<!DOCTYPE hmtl>'))
+console.log(html.startsWith('batata'))
+
+console.log(html.endsWith('</body>'))
+
+const mensagem = "                             Olá, mundo!               "
+console.log(mensagem)
+console.log(mensagem.trim()) //remove apenas espaços 
+
+let senha = 'html-css'
+
+console.log(senha.length) //contabiliza os caracteres 
+console.log(senha.length >= 8)
+console.log(senha.length <= 8)
+console.log(senha.length = 8)
 
 /**
  * Concatenação
